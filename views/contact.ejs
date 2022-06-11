@@ -1,0 +1,21 @@
+<form method="post" action="/contact">
+           <h2 data-aos="fade-down" data-aos-duration="600">Volunteer With US</h2>
+           <label for="Name">Name *</label>
+           <input type="text" name="name" placeholder="Enter your name" required>
+           <label for="Phone">Phone</label>
+           <input type="text" name="phone" placeholder="Enter your phone number">
+           <label for="email">Email</label>
+           <input type="email" placeholder="Email" required name="email">
+           <label for="Message">Why do you want to volunteer?</label>
+           <textarea name="whyvolunteer" placeholder="Write your answer here" required></textarea>
+           <label for="profileURL">Link to your CV/ LinkedIn/ Portfolio *</label>
+           <input type="text" name="linkcv" required placeholder="URL">
+           <label for="field">I would like to engage with *</label>
+               <select name="engage" required>
+                   <option value="" disabled selected>Choose an option</option>
+                   <option value="Design">Design</option>
+                   <option value="Communications/ Social Media">Communications/ Social Media</option>
+                   <option value="Fundraising">Fundraising</option>
+                   <option value="Writing a blog article">Writing a blog article</option>
+           <input type="submit" value="Submit">
+       </form>
